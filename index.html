@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beginner-friendly HTML5 webpage demonstrating semantic structure, accessibility, and SEO basics.">
+    <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic HTML, Web Design">
+    <meta name="author" content="Your Name">
+    <title>HTML5 + Accessibility & SEO Basics</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header role="banner">
+        <h1>Welcome to My Accessible & SEO-Friendly Webpage</h1>
+        <p>This page demonstrates semantic HTML5 structure with accessibility and SEO best practices.</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" title="Learn more about this project">About</a></li>
+            <li><a href="#features" title="See the features of this page">Features</a></li>
+            <li><a href="#contact" title="Get in touch">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content" role="main">
+        
+        <!-- ABOUT SECTION -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This is a simple web page created using HTML5 semantic tags to ensure that both users and search engines can easily understand the structure and content.</p>
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">Key Features</h2>
+            <article aria-labelledby="semantic-html">
+                <h3 id="semantic-html">Semantic HTML</h3>
+                <p>Using HTML5 elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> improves readability for assistive technologies and search engines.</p>
+            </article>
+
+            <article aria-labelledby="accessibility">
+                <h3 id="accessibility">Accessibility</h3>
+                <p>Screen readers can navigate easily thanks to landmarks, descriptive headings, and proper HTML attributes like <code>aria-label</code> and <code>aria-labelledby</code>.</p>
+            </article>
+
+            <article aria-labelledby="seo">
+                <h3 id="seo">SEO Optimization</h3>
+                <p>SEO-friendly elements include meaningful headings, meta descriptions, keyword usage, and a logical content hierarchy.</p>
+            </article>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>If you’d like to learn more or collaborate, please <a href="mailto:example@example.com">email me</a>.</p>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 Reggy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
